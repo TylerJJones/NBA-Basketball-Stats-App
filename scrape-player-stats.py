@@ -9,7 +9,7 @@ num_last_games = 1                                              # number of last
 today = date.today()                                            # get todays date
 last_n_games_date = today - pd.DateOffset(days=num_last_games)  # subtract today from number of last games to go back
 
-print("Starting Data Pull Process...")test
+print("Starting Data Pull Process...")
 
 # Create Data Object
 playergamelogs_data  = playergamelogs.PlayerGameLogs(
